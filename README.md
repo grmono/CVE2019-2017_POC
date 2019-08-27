@@ -1,9 +1,9 @@
 # CVE2019-2017_POC
-Defenetly suprising easy to exploit this. it essentially based on the improper handling of the tiles_enabled_flag and the inability of the poorly written code to verify invalid value on tiles, the difficulty arises on building a payload to succesfully take over the execution flow and achieve RCE.
+Definitely suprising easy to exploit this. it essentially based on the improper handling of the tiles_enabled_flag and the inability of the poorly written code to verify invalid value on tile. The difficulty arises on building a payload to succesfully take over the execution flow and achieve RCE.
 
-The delivery methos for this exploit seem relatively few since any online service or messaging app will not use libhvec or change the video format. Exploitation through browser or email service is defenetly achivable since format will remain the same. 
+The delivery methods that are applicable for this exploit seem relatively few since any online service or messaging app will not use libhvec or change the video format so no youtube or whatsapp. Exploitation through browser or email service is defenetly achivable since format will remain the same if you send over email or serve it on your own webserver as a download. 
 
-The current exploit should only work on Android versions 7-9.
+The current exploit should only work on Android versions 7-9 and requires interaction by the user to click the video. Then you can essentially control the phone with a properly crafted payload.
 
 # Tested on
 
