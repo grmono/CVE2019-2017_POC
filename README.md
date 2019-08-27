@@ -13,5 +13,7 @@ Samsung s7 (Works)
 
 LG G3 (Android Version 6.0 does not work)
 
+**IF THE MEDIA PLAYER CRASHES IT WORKED!!**
+
 
 **NOTE:** The payload has been removed from the exploit since there are too many vulrenable phones at this time
