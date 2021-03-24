@@ -17,3 +17,6 @@ LG G3 (Android Version 6.0 does not work)
 
 
 **NOTE:** The payload has been removed from the exploit since there are too many vulrenable phones at this time
+
+**UPDATE-March 2021**
+This still seems to apply and work on android 7.0
